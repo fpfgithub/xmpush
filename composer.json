@@ -1,6 +1,8 @@
 {
     "name": "fpfgithub/xmpush",
     "description": "小米消息推送服务PHP SDK",
+    "type": "library",
+    "keywords": ["xmpush"],
     "authors": [
         {
             "name": "fpfgithub",
@@ -14,5 +16,6 @@
         "psr-4": {
             "xmpush\\": "src/xmpush/"
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
